@@ -1,0 +1,21 @@
+{
+  "name": "interact-proxy",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rollup index.js --format umd --name \"interact-proxy\" --file dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huozhi/interact-proxy.git"
+  },
+  "author": "huozhi",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.59.4"
+  }
+}
