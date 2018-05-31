@@ -1,3 +1,4 @@
+import {mouseEventOf} from './lib/mouse'
 
 function clickOnElement(element, x, y) {
   mouseEventOf('click')(element, x, y)
