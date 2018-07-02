@@ -1,12 +1,2 @@
-import {mouseEventOf} from './lib/mouse'
-
-function clickOnElement(element, x, y) {
-  mouseEventOf('click')(element, x, y)
-}
-
-function hoverOnElement(element, x, y) {
-  mouseEventOf('mousemove')(element, x, y)
-  mouseEventOf('mouseover')(element, x, y)
-}
-
-export {clickOnElement, hoverOnElement}
+export {default as Mouse} from './lib/mouse'
+export {default as RequestInterception} from './lib/request'
