@@ -1,5 +1,5 @@
 {
-  "name": "interact-proxy",
+  "name": "goldfinger",
   "version": "0.1.0",
   "description": "",
   "main": "dist/main.js",
@@ -7,15 +7,18 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "rollup index.js --format umd --name \"interact-proxy\" --file dist/main.js"
+    "build": "rollup index.js --format umd --name \"goldfinger\" --file dist/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huozhi/interact-proxy.git"
+    "url": "git+https://github.com/huozhi/goldfinger.git"
   },
   "author": "huozhi",
   "license": "MIT",
   "devDependencies": {
     "rollup": "^0.59.4"
+  },
+  "dependencies": {
+    "url": "^0.11.0"
   }
 }
