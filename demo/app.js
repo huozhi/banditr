@@ -1,6 +1,4 @@
-import {RequestInterception as ri} from '../'
-
-ri.setup()
+import ri from '../'
 
 ri.addEventListener('fetch', (params) => {
   console.log('fetch', params)
@@ -8,6 +6,10 @@ ri.addEventListener('fetch', (params) => {
 
 ri.addEventListener('img', (params) => {
   console.log('img', params)
+});
+
+ri.addEventListener('img', (params) => {
+  console.log('img2', params)
 });
 
 

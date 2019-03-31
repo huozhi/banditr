@@ -1,1 +1,1 @@
-export {default as RequestInterception} from './lib/request'
+export {default} from './lib/request'
