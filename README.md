@@ -1,4 +1,4 @@
-# bandit
+# banditr
 > requests interceptor in browser
 
 ## Usage

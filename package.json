@@ -1,5 +1,5 @@
 {
-  "name": "bandit",
+  "name": "banditr",
   "version": "0.1.0",
   "description": "",
   "main": "dist/main.js",
@@ -7,11 +7,11 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "rollup index.js --format umd --name \"bandit\" --file dist/main.js"
+    "build": "rollup index.js --format umd --name \"banditr\" --file dist/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huozhi/bandit.git"
+    "url": "git+https://github.com/huozhi/banditr.git"
   },
   "author": "huozhi",
   "license": "MIT",
